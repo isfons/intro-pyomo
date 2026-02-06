@@ -133,16 +133,6 @@ conda install -c conda-forge ipopt glpk
    
 4. Los notebooks están diseñados como **plantillas para estudiantes**. Completa los ejercicios y tareas indicadas en cada sección.
 
-## Ruta de Aprendizaje Sugerida
-
-```
-📚 python_basico.ipynb (si vienes de MATLAB o tienes poca experiencia en Python)
-    ↓
-🔧 fundamentos_pyomo.ipynb (modelos concretos, NLP, LP)
-    ↓
-⚙️ optimizacion_discreta.ipynb (modelos abstractos, variables binarias, GDP)
-```
-
 ## Recursos Adicionales
 
 - [Documentación oficial de Pyomo](https://pyomo.readthedocs.io/)
