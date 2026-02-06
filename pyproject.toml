@@ -1,0 +1,29 @@
+[project]
+name = "intro-pyomo"
+dependencies = [
+    "numpy>=1.24",
+    "pandas>=2.0",
+    "pyomo",
+    "matplotlib>=3.7",
+    "ipykernel",
+    "ipywidgets",
+    "ipympl",
+]
+
+version = "0.1.0"
+requires-python = ">=3.8"
+authors = [
+  {name = "Isabela Fons", email = "isabela.fons@ua.es"}
+]
+description = "An introduction to mathematical optimization in Python using Pyomo"
+readme = "README.md"
+
+[project.optional-dependencies]
+# Note: IPOPT and GLPK are external solvers that must be installed separately
+# Install via conda: conda install -c conda-forge ipopt glpk
+# Or download binaries from their respective websites
+solvers = []
+
+
+[project.urls]
+Repository = "https://github.com/isfons/intro-pyomo.git"
