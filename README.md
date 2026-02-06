@@ -12,15 +12,12 @@ Pyomo (Python Optimization Modeling Objects) es una biblioteca de código abiert
 
 Este repositorio incluye los siguientes notebooks:
 
-### 0. `python_basico.ipynb` ⭐ Empieza aquí si eres nuevo en Python
-Fundamentos de Python para estudiantes con experiencia en MATLAB:
+### 0. `python_basico.ipynb` 
+Fundamentos de básicos de Python requeridos para iniciarse en Pyomo:
 - **Sintaxis básica**: variables, operaciones, indexación (¡empieza en 0!)
 - **Estructuras de datos**: listas, tuplas y diccionarios (esenciales para Pyomo)
 - **Bucles y comprensiones**: iteración y generación de expresiones compactas
 - **Funciones**: definición de funciones y funciones lambda
-- **Conceptos específicos para Pyomo**: suma de expresiones, dobles índices, producto cartesiano
-
-**Este notebook es fundamental si tienes poca experiencia con Python**. Cubre exactamente lo que necesitas para completar los ejercicios de optimización.
 
 ### 1. `fundamentos_pyomo.ipynb`
 Introducción a los conceptos básicos de Pyomo:
