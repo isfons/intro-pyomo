@@ -10,42 +10,16 @@ Pyomo (Python Optimization Modeling Objects) es una biblioteca de código abiert
 
 ## Contenido del Repositorio
 
-Este repositorio incluye los siguientes notebooks:
-
-### 0. `python_basico.ipynb` 
-Fundamentos de básicos de Python requeridos para iniciarse en Pyomo:
-- **Sintaxis básica**: variables, operaciones, indexación (¡empieza en 0!)
-- **Estructuras de datos**: listas, tuplas y diccionarios (esenciales para Pyomo)
-- **Bucles y comprensiones**: iteración y generación de expresiones compactas
-- **Funciones**: definición de funciones y funciones lambda
-
-### 1. `fundamentos_pyomo.ipynb`
-Introducción a los conceptos básicos de Pyomo:
-- **Instalación y configuración** de Pyomo y solvers (IPOPT, GLPK)
-- **Ejemplo 1: Problema teórico (NLP)** - Optimización no lineal con restricciones de igualdad
-- **Ejemplo 2: Problema de mezcla lineal** - Aplicación práctica en la industria cervecera
-
-**Conceptos cubiertos:**
-- Modelos concretos vs abstractos
-- Declaración de variables, parámetros y restricciones
-- Definición de funciones objetivo
-- Uso de sets e indexación
-- Resolución con diferentes solvers
-- Inspección y visualización de resultados
-
-### 2. `optimizacion_discreta.ipynb`
-Optimización con variables discretas y restricciones lógicas:
-- **Ejemplo 1: Problema de ubicación de almacenes** - Variables binarias y optimización de redes de distribución
-- **Ejemplo 2: Formulación de mezclas con incompatibilidades** - Restricciones lógicas y disyunciones
-
-**Conceptos cubiertos:**
-- Modelos abstractos y carga de datos
-- Variables binarias y enteras
-- Restricciones lógicas
-- Reformulación Big-M
-- Envolvente convexa (convex hull)
-- Programación disyuntiva generalizada (GDP)
-- Análisis de sensibilidad
+```
+/intro-pyomo
+├── python_basico.ipynb            # Notebook introductoria a Python
+├── fundamentos_pyomo.ipynb        # Notebook introductoria a Pyomo 
+├── optimizacion_discreta.ipynb    # Notebook sobre optimización discreat
+├── presentacion_taller_pyomo.pdf  # Diapositivas utilizadas durante el taller
+├── LICENSE                        # Licencia
+├── pyproject.toml                 # Configuración del environment de Python
+└── README.md
+```
 
 ## Requisitos Previos
 
@@ -126,12 +100,11 @@ conda install -c conda-forge ipopt glpk
 
 2. Asegúrate de tener instalados todos los requisitos mencionados arriba.
 
-3. Abre los notebooks en orden:
-   - **Si tienes poca experiencia con Python**: Empieza con `python_basico.ipynb` para aprender los fundamentos necesarios
-   - Continúa con `fundamentos_pyomo.ipynb` para entender los conceptos básicos de optimización
-   - Avanza a `optimizacion_discreta.ipynb` para problemas más avanzados con variables discretas
+3. Orden recomendado para trabajar los notebook:
+   - `python_basico.ipynb` para aprender los fundamentos necesarios
+   - `fundamentos_pyomo.ipynb` para entender los conceptos básicos de optimización
+   - `optimizacion_discreta.ipynb` para problemas más avanzados con variables discretas
    
-4. Los notebooks están diseñados como **plantillas para estudiantes**. Completa los ejercicios y tareas indicadas en cada sección.
 
 ## Recursos Adicionales
 
