@@ -20,6 +20,37 @@ Pyomo (Python Optimization Modeling Objects) es una biblioteca de código abiert
 ├── pyproject.toml                 # Configuración del environment de Python
 └── README.md
 ```
+## Instrucciones de Uso
+
+### Desde GoogleColab
+Haz click en cada link para dirigirte al notebook correspondiente:
+* Python básico
+<a target="_blank" href="https://colab.research.google.com/github/isfons/intro-pyomo/blob/main/python_basico.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+* Fundamentos Pyomo
+<a target="_blank" href="https://colab.research.google.com/github/isfons/intro-pyomo/blob/main/fundamentos_pyomo.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+* Optimización discreta
+<a target="_blank" href="https://colab.research.google.com/github/isfons/intro-pyomo/blob/main/optimizacion_discreta.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+### Uso local
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/intro_pyomo.git
+   cd intro_pyomo
+   ```
+
+2. Asegúrate de tener instalados todos los [requisitos](#requisitos-previos) mencionados abajo.
+
+3. Abre cada uno de los notebook (`*.ipynb`)
+
 
 ## Requisitos Previos
 
@@ -89,38 +120,6 @@ glpsol --version
 ```bash
 conda install -c conda-forge ipopt glpk
 ```
-
-## Instrucciones de Uso
-
-### Desde GoogleColab
-Haz click en cada link para dirigirte al notebook correspondiente:
-* Python básico
-<a target="_blank" href="https://colab.research.google.com/github/isfons/intro-pyomo/blob/main/python_basico.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-* Fundamentos Pyomo
-<a target="_blank" href="https://colab.research.google.com/github/isfons/intro-pyomo/blob/main/fundamentos_pyomo.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-* Optimización discreta
-<a target="_blank" href="https://colab.research.google.com/github/isfons/intro-pyomo/blob/main/optimizacion_discreta.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-
-
-
-### Uso local
-
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu-usuario/intro_pyomo.git
-   cd intro_pyomo
-   ```
-
-2. Asegúrate de tener instalados todos los requisitos mencionados arriba.
-
-3. Abre cada uno de los notebook (`*.ipynb`)
-
 
 ## Recursos Adicionales
 
