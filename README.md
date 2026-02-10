@@ -43,7 +43,7 @@ Haz click en cada link para dirigirte al notebook correspondiente:
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/intro_pyomo.git
+   git clone https://github.com/isfons/intro-pyomo.git
    cd intro_pyomo
    ```
 
