@@ -92,6 +92,25 @@ conda install -c conda-forge ipopt glpk
 
 ## Instrucciones de Uso
 
+### Desde GoogleColab
+Haz click en cada link para dirigirte al notebook correspondiente:
+* Python básico
+<a target="_blank" href="https://colab.research.google.com/github/isfons/intro-pyomo/blob/main/python_basico.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+* Fundamentos Pyomo
+<a target="_blank" href="https://colab.research.google.com/github/isfons/intro-pyomo/blob/main/fundamentos_pyomo.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+* Optimización discreta
+<a target="_blank" href="https://colab.research.google.com/github/isfons/intro-pyomo/blob/main/optimizacion_discreta.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+
+
+### Uso local
+
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/tu-usuario/intro_pyomo.git
@@ -100,11 +119,8 @@ conda install -c conda-forge ipopt glpk
 
 2. Asegúrate de tener instalados todos los requisitos mencionados arriba.
 
-3. Orden recomendado para trabajar los notebook:
-   - `python_basico.ipynb` para aprender los fundamentos necesarios
-   - `fundamentos_pyomo.ipynb` para entender los conceptos básicos de optimización
-   - `optimizacion_discreta.ipynb` para problemas más avanzados con variables discretas
-   
+3. Abre cada uno de los notebook (`*.ipynb`)
+
 
 ## Recursos Adicionales
 
